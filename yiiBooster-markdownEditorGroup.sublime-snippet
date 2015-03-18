@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->markdownEditorGroup(
+			\$model,
+			'${1:markdown}',
+			array(
+				'widgetOptions' => array(
+					'htmlOptions' => array('style'=>'height: 200px;')
+				)
+			)
+		); ?>$0]]></content>
+    <tabTrigger>tamark</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Mark Down Editor Group</description>
+</snippet>

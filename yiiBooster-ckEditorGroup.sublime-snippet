@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->ckEditorGroup(
+			\$model,
+			'${1:ckeditor}',
+			array(
+		   		'wrapperHtmlOptions' => array(
+					/* 'class' => 'col-sm-5', */
+				),
+				'widgetOptions' => array(
+					'editorOptions' => array(
+						'fullpage' => 'js:true',
+						/* 'width' => '640', */
+						/* 'resize_maxWidth' => '640', */
+						/* 'resize_minWidth' => '320'*/
+					)
+				)
+			)
+		); ?>$0]]></content>
+    <tabTrigger>tack</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster CKEditor Group</description>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->textAreaGroup(
+			\$model,
+			'${1:textarea}',
+			array(
+				'wrapperHtmlOptions' => array(
+					'class' => 'col-sm-5',
+				),
+				'widgetOptions' => array(
+					'htmlOptions' => array('rows' => 5),
+				)
+			)
+		); ?>$0]]></content>
+    <tabTrigger>ta</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Text Area Group</description>
+</snippet>

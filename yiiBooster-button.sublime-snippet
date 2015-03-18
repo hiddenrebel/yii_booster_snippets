@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+			'booster.widgets.TbButton',
+			array(
+				'buttonType' => 'submit',
+				'context' => 'primary',
+				'label' => 'Submit'
+			)
+		); ?>$0]]></content>
+    <tabTrigger>boobtn</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Button</description>
+</snippet>

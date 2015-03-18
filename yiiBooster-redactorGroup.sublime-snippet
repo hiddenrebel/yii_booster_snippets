@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->redactorGroup(
+			\$model,
+			'${1:redactor}',
+			array(
+				'widgetOptions' => array(
+					'editorOptions' =>array(
+						'class' => 'span4', 
+						'rows' => 5, 
+						'options' => array('plugins' => array('clips', 'fontfamily'), 'lang' => 'sv')
+					)
+				)
+			)
+		); ?>$0]]></content>
+    <tabTrigger>taredactor</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Redactor Group</description>
+</snippet>

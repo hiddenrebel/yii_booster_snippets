@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[<?php echo\ $form->html5EditorGroup(
+			\$model,
+			'${1:wysihtml5}',
+			 array(
+				'widgetOptions' => array(
+					'editorOptions' => array(
+						'class' => 'span4',
+						'rows' => 5,
+						'height' => '200',
+						'options' => array('color' => true)
+					),
+				)
+				)
+			); ?>$0]]></content>
+    <tabTrigger>taHtml</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster HTML 5 Editor Group</description>
+</snippet>

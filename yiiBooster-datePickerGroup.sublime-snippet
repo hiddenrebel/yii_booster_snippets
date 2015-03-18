@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->datePickerGroup(
+			\$model,
+			'${1:attribute}',
+			array(
+				'widgetOptions' => array(
+					'options' => array(
+						'language' => 'en',
+					),
+				),
+				'wrapperHtmlOptions' => array(
+					'class' => 'col-sm-5',
+				),
+				'hint' => 'Click inside! This is a super cool date field.',
+				'prepend' => '<i class="glyphicon glyphicon-calendar"></i>'
+			)
+		); ?>$0]]></content>
+    <tabTrigger>date</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Date Picker Group</description>
+</snippet>

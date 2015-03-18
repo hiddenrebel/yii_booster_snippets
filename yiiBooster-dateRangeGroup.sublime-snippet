@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->dateRangeGroup(
+			\$model,
+			'${1:dateRangeField}',
+			array(
+				'widgetOptions' => array(
+					'callback' => 'js:function(start, end){console.log(start.toString("MMMM d, yyyy") + " - " + end.toString("MMMM d, yyyy"));}'
+				), 
+		   		'wrapperHtmlOptions' => array(
+					'class' => 'col-sm-5',
+				),
+				'hint' => 'Click inside! An even a date range field!.',
+				'prepend' => '<i class="glyphicon glyphicon-calendar"></i>'
+			)
+		); ?>$0]]></content>
+    <tabTrigger>dateRange</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Date Range Group</description>
+</snippet>

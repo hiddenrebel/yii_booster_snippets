@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->select2Group(
+			\$model,
+			'${1:select2}',
+			array(
+				'wrapperHtmlOptions' => array(
+					'class' => 'col-sm-5',
+				),
+				'widgetOptions' => array(
+					'asDropDownList' => false,
+					'options' => array(
+						'tags' => array('clever', 'is', 'better', 'clevertech'),
+						'placeholder' => 'type clever, or is, or just type!',
+						/* 'width' => '40%', */
+						'tokenSeparators' => array(',', ' ')
+					)
+				)
+			)
+		);?>$0]]></content>
+    <tabTrigger>select2</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Select 2 Group</description>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->radioButtonListGroup(
+			\$model,
+			'${1:radioButtons}',
+			array(
+				'widgetOptions' => array(
+					'data' => array(
+						'Option one is this and that - be sure to include why it\'s great',
+						'Option two can is something else and selecting it will deselect option one',
+					)
+				)
+			)
+		); ?>$0]]></content>
+    <tabTrigger>radioBtn</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Radio Button List Group</description>
+</snippet>

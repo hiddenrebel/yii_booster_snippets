@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->timePickerGroup(
+			\$model,
+			'${1:timepicker}',
+			array(
+				'widgetOptions' => array(
+					'wrapperHtmlOptions' => array(
+						'class' => 'col-sm-3'
+					),
+				),
+				'hint' => '${2:Nice bootstrap time picker}',
+			)
+		); ?>$0]]></content>
+    <tabTrigger>timePicker</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Time Picker Group</description>
+</snippet>

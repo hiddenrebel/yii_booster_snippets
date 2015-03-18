@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->switchGroup(\$model, '${1:switch}',
+			array(
+				'widgetOptions' => array(
+					'events'=>array(
+						'switchChange'=>'js:function(event, state) {
+						  console.log(this); // DOM element
+						  console.log(event); // jQuery event
+						  console.log(state); // true | false
+						}'
+					)
+				)
+			)
+		); ?>$0]]></content>
+    <tabTrigger>switch</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Switch Group</description>
+</snippet>

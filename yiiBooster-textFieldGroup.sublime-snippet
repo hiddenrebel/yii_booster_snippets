@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->textFieldGroup(
+			\$model,
+			'${1:attribute}',
+			array(
+				'wrapperHtmlOptions' => array(
+					'class' => 'col-sm-5',
+					),
+				${2:'widgetOptions' => array(
+									'htmlOptions' => array('disabled' => true)
+								),}
+				${3:'prepend' => '@',
+					'append' => '.00'
+				}
+
+		'hint' => 'In addition to freeform text, any HTML5 text-based input appears like so.'
+	)
+); ?>$0]]></content>
+    <tabTrigger>text</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Text Field</description>
+</snippet>

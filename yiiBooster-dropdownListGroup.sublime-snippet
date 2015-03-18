@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->dropDownListGroup(
+			\$model,
+			'${1:dropdown}',
+			array(
+				'wrapperHtmlOptions' => array(
+					'class' => 'col-sm-5',
+				),
+				'widgetOptions' => array(
+					'data' => ${2:array(${3:'Something ...', '1', '2', '3', '4', '5'})},
+					'htmlOptions' => ${4:array('multiple' => true)},
+				)
+			)
+		); ?>$0]]></content>
+    <tabTrigger>dropdown</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Dropdown List Group</description>
+</snippet>

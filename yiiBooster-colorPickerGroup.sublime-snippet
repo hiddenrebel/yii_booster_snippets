@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[<?php echo \$form->colorpickerGroup(
+			\$model,
+			'${1:colorpicker}',
+			array(
+				'wrapperHtmlOptions' => array(
+					'class' => 'col-sm-5'
+				),
+				'hint' => '${2:Color fields, not bad}',
+			)
+		); ?>$0]]></content>
+    <tabTrigger>colorPicker</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Color Picker Group</description>
+</snippet>
