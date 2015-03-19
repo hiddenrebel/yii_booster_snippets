@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget('booster.widgets.TbEditableField', array(
+    'type' => 'text',
+    'model' => \$model,
+    'attribute' => '${1:someStringAttribute}',
+    'url' => \$endpoint, //url for submit data
+));?>$0]]></content>
+    <tabTrigger>tbet</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Editable Field Text</description>
+</snippet>

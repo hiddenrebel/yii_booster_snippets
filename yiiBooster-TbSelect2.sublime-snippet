@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbSelect2',
+    array(
+        'asDropDownList' => false,
+        'name' => '${1:clevertech}',
+        'options' => array(
+            'tags' => array('clever', 'is', 'better', 'clevertech'),
+            'placeholder' => 'type clever, or is, or just type!',
+            'width' => '40%',
+            'tokenSeparators' => array(',', ' ')
+        )
+    )
+);?>$0]]></content>
+    <tabTrigger>tbselect</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Select2</description>
+</snippet>

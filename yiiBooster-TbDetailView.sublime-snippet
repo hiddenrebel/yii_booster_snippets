@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbDetailView',
+    array(
+        'data' => array(
+            'id' => 1,
+            'firstName' => 'Mark',
+            'lastName' => 'Otto',
+            'language' => 'CSS'
+        ),
+        'attributes' => array(
+            array('name' => 'firstName', 'label' => 'First name'),
+            array('name' => 'lastName', 'label' => 'Last name'),
+            array('name' => 'language', 'label' => 'Language'),
+        ),
+    )
+);?>$0]]></content>
+    <tabTrigger>tbdv</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Detail View</description>
+</snippet>

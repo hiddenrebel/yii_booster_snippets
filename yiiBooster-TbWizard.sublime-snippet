@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbWizard',
+    array(
+        'type' => 'tabs', // 'tabs' or 'pills'
+        'options' => array(
+            'class' => '',
+            'onTabShow' => 'js:function(tab, navigation, index) { if((index+1) > 1) {alert("Tab #" + (index+1));} }',
+            'onTabClick' => 'js:function(tab, navigation, index) {alert("Tab Click Disabled");return false;}',
+        ),
+        'tabs' => array(
+            array(
+                'label' => 'Home',
+                'content' => 'Home Content',
+                'active' => true
+            ),
+            array('label' => 'Profile', 'content' => 'Profile Content'),
+            array('label' => 'Messages', 'content' => 'Messages Content'),
+        ),
+    )
+);?>$0]]></content>
+    <tabTrigger>tbwd</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Wizard</description>
+</snippet>

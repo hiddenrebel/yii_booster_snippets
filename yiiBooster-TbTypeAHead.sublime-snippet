@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbTypeahead',
+    array(
+        'name' => '${1:demo-typeahead}',
+        'datasets' => array(
+            'source' => ${2:array(
+                            'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
+                            'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia',
+                            'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas',
+                            'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts',
+                            'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana',
+                            'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey',
+                            'New Mexico', 'New York', 'North Dakota', 'North Carolina',
+                            'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
+                            'South Carolina', 'South Dakota', 'Tennessee', 'Texas',
+                            'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia',
+                            'Wisconsin', 'Wyoming'
+                        )},
+        ),
+        'options' => array(
+            'hint' => true,
+            'highlight' => true,
+            'minLength' => 1
+        ),
+    )
+);?>$0]]></content>
+    <tabTrigger>tbtah</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Type A Head</description>
+</snippet>

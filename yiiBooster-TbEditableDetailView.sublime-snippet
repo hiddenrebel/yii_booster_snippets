@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbEditableDetailView',
+    array(
+        'id' => 'region-details',
+        'data' => \$model,
+        'url' => \$endpoint,
+        'attributes' => array(
+           ${2: 'country_code',
+                       'name',}
+        )
+    )
+);?>$0]]></content>
+    <tabTrigger>tbedv</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Editable Detail View</description>
+</snippet>

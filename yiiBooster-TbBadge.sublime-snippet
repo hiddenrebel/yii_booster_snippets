@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbBadge',
+    array(
+        'context' => 'success',
+        // 'default', 'success', 'info', 'warning', 'danger'
+        'label' => '2',
+    )
+); ?>$0]]></content>
+    <tabTrigger>tbBadge</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Badge</description>
+</snippet>

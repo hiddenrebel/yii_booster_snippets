@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbProgress',
+    array(
+        'context' => 'danger', // 'info', 'success' or 'danger'
+        'percent' => 40, // the progress
+        'striped' => true,
+        'animated' => true,
+    )
+);?>$0]]></content>
+    <tabTrigger>tbProgress</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Progress</description>
+</snippet>

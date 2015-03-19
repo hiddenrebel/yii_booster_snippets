@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbTabs',
+    array(
+        'type' => 'tabs', // 'tabs', 'pills', or 'list'
+        //'stacked' => true,
+        //'justified' => true,
+        'tabs' => array(
+            array(
+                'label' => 'Home',
+                'content' => 'Home Content',
+                'active' => true
+            ),
+            array('label' => 'Profile', 'content' => 'Profile Content'),
+            array(
+                'label' => 'DropDown',
+                'items' => array(
+                    array('label' => 'Item1', 'content' => 'Item1 Content'),
+                    array('label' => 'Item2', 'content' => 'Item2 Content')
+                )
+            ),
+        )
+    )
+);?>$0]]></content>
+    <tabTrigger>tbtbs</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Tabs</description>
+</snippet>

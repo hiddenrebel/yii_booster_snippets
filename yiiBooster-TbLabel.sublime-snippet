@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbLabel',
+    array(
+        'context' => 'success',
+        // 'default', 'primary', 'success', 'info', 'warning', 'danger'
+        'label' => 'Success',
+    )
+);?>$0]]></content>
+    <tabTrigger>tbLabel</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Label</description>
+</snippet>

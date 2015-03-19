@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget('booster.widgets.TbEditableField', array(
+    'type' => 'date',
+    'model' => \$model,
+    'attribute' => '${1:someDateAttribute}',
+    'url' => \$endpoint, //url for submit data
+    'placement' => 'right',
+    'format' => 'yyyy-mm-dd',
+    'viewformat' => 'mm/dd/yyyy',
+    'options' => array(
+        'datepicker' => array(
+            'language' => 'en'
+        )
+    )
+));?>$0]]></content>
+    <tabTrigger>tbed</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Editable Field Date</description>
+</snippet>

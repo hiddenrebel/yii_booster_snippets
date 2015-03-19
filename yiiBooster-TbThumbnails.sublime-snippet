@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[<?php echo CHtml::openTag('div', array('class' => 'row-fluid'));
+\$this->widget(
+    'booster.widgets.TbThumbnails',
+    array(
+        'dataProvider' => \$thumbDataProvider,
+        'template' => "{items}\n{pager}",
+        'itemView' => 'application.views.widgets.grouping._thumb',
+    )
+);
+echo CHtml::closeTag('div');?>$0]]></content>
+    <tabTrigger>tbtn</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Thumbnails</description>
+</snippet>

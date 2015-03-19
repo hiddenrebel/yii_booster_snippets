@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbPanel',
+    array(
+        'title' => '${1:Basic Box}',
+        'headerIcon' => 'home',
+        'content' => '${2:My Basic Content (you can use renderPartial here too :))}'
+    )
+); ?>$0]]></content>
+    <tabTrigger>tbp</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Panel</description>
+</snippet>

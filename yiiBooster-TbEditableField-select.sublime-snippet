@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget('booster.widgets.TbEditableField', array(
+    'type' => 'select2',
+    'model' => \$model,
+    'attribute' => '${1:someEnumerableAttribute}',
+    'url' => \$endpoint, //url for submit data
+    'source' => ${2:array('Choose', 'your', 'destiny', '.')}
+));?>$0]]></content>
+    <tabTrigger>tbes</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Editable Field Select</description>
+</snippet>

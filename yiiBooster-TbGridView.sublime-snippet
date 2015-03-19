@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbGridView',
+    array(
+        'type' => '${1:striped}',//bordered, condensed
+        'dataProvider' => ${2:$gridDataProvider},
+        'template' => "{items}",
+        //'filter' => $person->search(),
+        'columns' => ${3:array(
+                                array('name'=>'id', 'header'=>'#', 'htmlOptions'=>array('style'=>'width: 60px')),
+                                array('name'=>'firstName', 'header'=>'First name'),
+                                array('name'=>'lastName', 'header'=>'Last name'),
+                                array('name'=>'language', 'header'=>'Language'),
+                                array('name'=>'hours', 'header'=>'Hours worked'),
+                                array(
+                                    'htmlOptions' => array('nowrap'=>'nowrap'),
+                                    'class'=>'booster.widgets.TbButtonColumn',
+                                    'viewButtonUrl'=>null,
+                                    'updateButtonUrl'=>null,
+                                    'deleteButtonUrl'=>null,
+                                )
+                            )},
+    )
+); ?>$0]]></content>
+    <tabTrigger>tbgv</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Grid View</description>
+</snippet>

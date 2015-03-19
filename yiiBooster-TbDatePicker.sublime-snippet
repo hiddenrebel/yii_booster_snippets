@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget(
+    'booster.widgets.TbDatePicker',
+    array(
+        'name' => '${1:some_date}',
+        'options' => array(
+            'language' => 'en'
+        ),
+        'htmlOptions' => array('class'=>'col-md-4'),
+    )
+);?>$0]]></content>
+    <tabTrigger>tbdp</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Date Picker</description>
+</snippet>

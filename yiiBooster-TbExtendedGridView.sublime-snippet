@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[<?php \$this->widget('booster.widgets.TbExtendedGridView', array(
+    'filter'=>\$person,
+    'type'=>'striped bordered',
+    'dataProvider' => \$gridDataProvider,
+    'template' => "{items}\n{extendedSummary}",
+    'columns' => \$gridColumns,
+    'extendedSummary' => array(
+        'title' => 'Expertise',
+        'columns' => array(
+            'language' => array(
+                'label'=>'Total Expertise',
+                'types' => array(
+                    'CSS'=>array('label'=>'Css'),
+                    'JavaScript'=>array('label'=>'Js'),
+                    'HTML'=>array('label'=>'html')
+                ),
+                'class'=>'TbCountOfTypeOperation'
+            )
+        )
+    ),
+    'extendedSummaryOptions' => array(
+        'class' => 'well pull-right',
+        'style' => 'width:300px'
+    ),
+));?>$0]]></content>
+    <tabTrigger>tbegv</tabTrigger>
+    <scope>text.html</scope>
+    <description>Yii Booster Extended Grid View</description>
+</snippet>
